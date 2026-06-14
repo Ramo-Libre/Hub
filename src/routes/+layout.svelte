@@ -1,6 +1,6 @@
 <script lang="ts">
-    import '@ramo-libre/ui-themes/tailwind.css';
-    import { SuiteFavicons } from '@ramo-libre/ui-themes';
+	import '@ramo-libre/ui-themes/tailwind.css';
+	import { SuiteFavicons } from '@ramo-libre/ui-themes';
 
 	let { children } = $props();
 

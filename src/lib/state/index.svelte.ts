@@ -30,7 +30,7 @@ class RootStore {
 
 	createSnapshot() {
 		const snapshot = {
-			[PREFERENCES_KEY]: this._preferences.toSerial(),
+			[PREFERENCES_KEY]: this._preferences.toSerial()
 		};
 
 		return snapshot;
