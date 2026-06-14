@@ -1,7 +1,6 @@
 <script lang="ts">
-	import './layout.css';
-	import './custom.css';
-	import favicon from '$lib/assets/favicon.svg';
+    import '@ramo-libre/ui-themes/tailwind.css';
+    import { SuiteFavicons } from '@ramo-libre/ui-themes';
 
 	let { children } = $props();
 
@@ -18,7 +17,7 @@
 <svelte:head>
 	<title>RamoLibre Hub</title>
 	<meta name="theme-color" content="#ffffff" id="theme-meta" />
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={SuiteFavicons.hub} />
 </svelte:head>
 
 <div class="h-dvh w-full text-content">
